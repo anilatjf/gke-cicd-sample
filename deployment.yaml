@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: gcr.io/strategic-block-455218-i3/flask-app
+        image: gcr.io/strategic-block-455218-i3/flask-app:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 
